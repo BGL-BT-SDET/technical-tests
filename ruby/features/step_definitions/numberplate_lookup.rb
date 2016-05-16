@@ -1,4 +1,5 @@
 Given(/^I am on the vehicle details page$/) do
+  visit("/")
   click_link('lph-cta-car')
 end
 
