@@ -1,8 +1,8 @@
 @interview
 Feature: Technical test
-  In order to show off my Ruby skills
+  In order to show off my Java skills
   As a tester
-  I want to write some cool Ruby code
+  I want to write some cool Java code
 
 @test1
 Scenario Outline: Conditional output
