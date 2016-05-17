@@ -42,12 +42,11 @@ Then(/^the number (\d+) is returned$/) do |expectedValue|
   expect(outputValue).to eq(expectedValue)
 end
 
-Then(/^this test prints "(.*?)"$/) do |expectedValue|
+Then(/^this test prints (.*)$/) do |expectedValue|
 
   outputValue = ""
 
   # TEST 4:
   # Return a countdown "10 9 8 7 6 5 4 3 2 1 LIFTOFF"
-
   expect(outputValue).to eq(expectedValue)
 end
