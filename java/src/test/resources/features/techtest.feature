@@ -37,6 +37,12 @@ Scenario Outline: New method
   | 903   | 1811    |
 
 @test4
-Scenario: Countdown
+Scenario Outline: Countdown
   Given I am in an interview
-  Then this test prints "10 9 8 7 6 5 4 3 2 1 LIFTOFF"
+  When I send <input> to my custom method
+  Then this test prints <output>
+  Examples:
+  | input | output                       |
+  | 10    | 10 9 8 7 6 5 4 3 2 1 LIFTOFF |
+  | 5     | 5 4 3 2 1 LIFTOFF            |
+  
