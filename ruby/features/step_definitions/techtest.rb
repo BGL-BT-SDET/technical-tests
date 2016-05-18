@@ -7,10 +7,11 @@ end
 
 Then(/^the value returned for (\d+) is (.*?)$/) do |inputNumber, expectedOutput|
 
-  outputValue = ""
-
+  ##########################
   # TEST 1:
   # Return "Too small", "Just right" or "Too big" depending on the input number.
+  outputValue = ""
+  ##########################
 
   expect(outputValue).to eq(expectedOutput)
 end
@@ -21,11 +22,13 @@ end
 
 Then(/^the name I get back is "(.*?)"$/) do |expectedName|
 
-  outputValue = ""
+  inputValue = @name
 
+  ##########################
   # TEST 2:
-  # Take the value from the global variable 'name',
-  # change it into upper-case and put it backwards.
+  # Change the input value into upper-case and put it backwards.
+  outputValue = ""
+  ##########################
 
   expect(outputValue).to eq(expectedName)
 end
@@ -42,11 +45,21 @@ Then(/^the number (\d+) is returned$/) do |expectedValue|
   expect(outputValue).to eq(expectedValue)
 end
 
+##########################
+# TEST 3:
+# Write your custom function here.
+
+##########################
+
 Then(/^this test prints (.*)$/) do |expectedValue|
 
-  outputValue = ""
+  inputValue = @inputValue
 
+  ##########################
   # TEST 4:
   # Return a countdown "10 9 8 7 6 5 4 3 2 1 LIFTOFF"
+  outputValue = ""
+  ##########################
+
   expect(outputValue).to eq(expectedValue)
 end

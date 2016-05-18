@@ -14,7 +14,10 @@ Then(/^the vehicle make is '(.*?)'$/) do |vehicleMake|
   expect(page).to have_xpath(vehicleSummaryXpath)
   fullSummary = find(:xpath, vehicleSummaryXpath).text
 
+  ##########################
   # TEST 5: fullSummary is a comma-separated vehicle description. We only want the first part.
+
+  ##########################
 
   expect(fullSummary).to eq(vehicleMake)
 end
