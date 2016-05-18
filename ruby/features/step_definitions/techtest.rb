@@ -1,5 +1,5 @@
-name = ""
-inputValue = ""
+@name = ""
+@inputValue = ""
 
 Given(/^I am in an interview$/) do
   # nothing to see here
@@ -17,7 +17,7 @@ Then(/^the value returned for (\d+) is (.*?)$/) do |inputNumber, expectedOutput|
 end
 
 When(/^I enter the name "(.*?)"$/) do |inputName|
-  name = inputName # nothing to do here!
+  @name = inputName # nothing to do here!
 end
 
 Then(/^the name I get back is "(.*?)"$/) do |expectedName|
@@ -41,7 +41,7 @@ Then(/^the number (\d+) is returned$/) do |expectedValue|
   # TEST 3:
   # DO NOT MODIFY THIS DEFINITION!
   # Instead, write a custom function 'myFunction' which satisfies the rules.
-  outputValue = myFunction(inputValue)
+  outputValue = myFunction(@inputValue)
   expect(outputValue).to eq(expectedValue)
 end
 
