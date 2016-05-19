@@ -1,5 +1,5 @@
 package support;
 
 public class constants {
-public static final String baseURL = "http://www.comparethemarket.com/";
+public static final String baseURL = "https://www.comparethemarket.com/car-insurance";
 }
