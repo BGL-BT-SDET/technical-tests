@@ -6,7 +6,7 @@ comparethemarket.com is a price comparison website that you can use to find the 
 
 We would like you to take a look at the energy comparison journey. You can find it here: https://energy.comparethemarket.com/energy/v2/?AFFCLIE=TST
 
-Please ensure you use the above URL with the AFFCLIE code so that it doesn't affect the energy teams metrics!
+Please ensure you use the above URL with the AFFCLIE code so that it doesn't affect the energy team's metrics!
 
 Using a test framework of your choice, in a language of your choice, write three tests that you think provide the best coverage of the functionality that is possible in 3 tests. 
 
