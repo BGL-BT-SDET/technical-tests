@@ -4,7 +4,9 @@
 Thank you for taking the time to do the CTM SDET test.
 comparethemarket.com is a price comparison website that you can use to find the best price on a variety of products. Each product has its own user journey. The user journey helps us collate the information required to get quotes from companies that provide the products. As you can imagine, the user journeys must always be functional and we need to ensure that they are working on every check in of the code.
 
-We would like you to take a look at the energy comparison journey. You can find it here: https://energy.comparethemarket.com/energy/v2/
+We would like you to take a look at the energy comparison journey. You can find it here: https://energy.comparethemarket.com/energy/v2/?AFFCLIE=TST
+
+Please ensure you use the above URL with the AFFCLIE code so that it doesn't affect the enrgy teams metrics!
 
 Using a test framework of your choice, in a language of your choice, write three tests that you think provide the best coverage of the functionality that is possible in 3 tests. 
 
